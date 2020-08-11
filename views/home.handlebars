@@ -1,0 +1,52 @@
+<div class="form-div">
+  <form>
+    <fieldset>
+      <legend class='form-header'>Enter your new workout</legend>
+      <label>Name of the exercise:</label>
+      <input type="text" name="name" class="name"/> <br />
+      <label>Number of Reps:</label>
+      <input type="number" name="reps" class="reps"/> <br />
+      <label>Weight of the exercise:</label>
+      <input type="text" name="weight" class="weight"/> <br />
+      <label>Date exercise was done:</label>
+      <input type="text" name="date" class="date"/ placeholder="mm-dd-yyyy"> <br />
+      <label>Enter 0 if in lbs, 1 if in kg</label>
+      <input type="text" name="unit" class="unit"/> <br />
+      <input type="submit" value="Submit" class="add-button" />
+    </fieldset>
+  </form>
+</div>
+
+<div class="workout-table-div">
+  <h1>Your workout tracker</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Name of exercise</th>
+        <th>Reps</th>
+        <th>Weight</th>
+        <th>Date</th>
+        <th>Unit</th>
+        <th>Edit or delete workout</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!--
+      <tr>
+        <td class='name-col'>Squat</td>
+        <td class='rep-col'>80</td>
+        <td class='weight-col'>400</td>
+        <td class='date-col'>07-31-2020</td>
+        <td class='unit-col'>1</td>
+        <td>
+          <form class='row-form'>
+            <input type="hidden" value="1"/>
+            <input type="Submit" value="Edit" class="edit-button"/>
+            <input type="Submit" value="Delete" class='delete-button'/>
+          </form>
+        </td>
+      </tr>
+    -->
+    </tbody>
+  </table>
+</div>
