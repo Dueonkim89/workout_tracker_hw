@@ -388,7 +388,7 @@ function editForm(id, data) {
   let dateInput = document.createElement("input");
   dateInput.setAttribute("type", "text");
   dateInput.setAttribute("name", "date");
-  dateInput.setAttribute("placeholder", "yyyy-mm-dd");
+  dateInput.setAttribute("placeholder", "mm-dd-yyyy");
   dateInput.classList.add("date");
   dateInput.value = data[3].innerText;
   fieldSet.appendChild(dateLabel);
